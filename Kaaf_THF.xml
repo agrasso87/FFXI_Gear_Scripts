@@ -1,0 +1,201 @@
+<ashitacast>
+	<settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statuspdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+		<autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+	</settings>
+	<sets>
+		<set name="Stand">
+			<head>Imp. Wing Hairpin</head>
+			<neck>Twilight Torque</neck>
+			<lear>Infused Earring</lear>
+			<rear>Phawaylla Earring</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Herculean Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Griffon Ring</rring>
+			<back>Shadow Mantle</back>
+			<waist>Twilight Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Pillager's Poulaines</feet>
+		</set>
+		<set name="TP-Old-Default">
+			<head>Herculean Helm</head>
+			<neck>Clotharius Torque</neck>
+			<lear>Brutal Earring</lear>
+			<rear>Suppanomimi</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Herculean Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ulthalam's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Twilight Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Herculean boots</feet>
+		</set>
+		<set name="TP-Old-TH">
+			<head>Herculean Helm</head>
+			<neck>Clotharius Torque</neck>
+			<lear>Brutal Earring</lear>
+			<rear>Suppanomimi</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Assassin's Armlets</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ulthalam's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Twilight Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Raid. Poulaines +2</feet>
+		</set>
+		<set name="TP-Acc-Default">
+			<head>Skulker's Bonnet</head>
+			<neck>Peacock Charm</neck>
+			<lear>Brutal Earring</lear>
+			<rear>Dignitary's Earring</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Herculean Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ulthalam's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Anguinus Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Meghanada Jambeaux +1</feet>
+		</set>
+		<set name="TP-Acc-TH">
+			<head>Skulker's Bonnet</head>
+			<neck>Peacock Charm</neck>
+			<lear>Brutal Earring</lear>
+			<rear>Dignitary's Earring</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Assassin's Armlets</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ulthalam's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Anguinus Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Raid. Poulaines +2</feet>
+		</set>
+		<!--<set name="Steps">
+			<head>Whirlpool Mask</head>
+			<neck>Ej Necklace</neck>
+			<lear>Steelflash Earring</lear>
+			<rear>Heartseeker Earring</rear>
+			<body>Manibozho Jerkin</body>
+			<hands>Buremte Gloves</hands>
+			<lring>Rajas Ring</lring>
+			<rring>Epona's Ring</rring>
+			<back>Letalis Mantle</back>
+			<waist>Hurch'lan Sasht</waist>
+			<legs>Manibozho Brais</legs>
+			<feet>Manibozho boots</feet>				
+		</set>-->
+		<set name="Evisceration-Old">
+			<head>Skulker's Bonnet</head>
+			<neck>Love Torque</neck>
+			<lear>Brutal Earring</lear>
+			<rear>Dignitary's Earring</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Herculean Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ulthalam's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Anguinus Belt</waist>
+			<legs>Raid. Culottes +2</legs>
+			<feet>Meghanada Jambeaux +1</feet>
+		</set>
+		<set name="Evisceration-Acc">
+		</set>
+		<set name="Exenterator-Old">
+			<head>Herculean Helm</head>
+			<neck>Clotharius Torque</neck>
+			<lear>Brutal Earring</lear>
+			<rear>Dignitary's Earring</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Herculean Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ulthalam's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Anguinus Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Meghanada Jambeaux +1</feet>
+		</set>
+		<set name="Exenterator-Acc">
+			<head>Herculean Helm</head>
+			<neck>Clotharius Torque</neck>
+			<lear>Brutal Earring</lear>
+			<rear>Dignitary's Earring</rear>
+			<body>Pillager's Vest +1</body>
+			<hands>Herculean Gloves</hands>
+			<lring>Apate Ring</lring>
+			<rring>Ulthalam's Ring</rring>
+			<back>Atheling Mantle</back>
+			<waist>Anguinus Belt</waist>
+			<legs>Herculean Trousers</legs>
+			<feet>Meghanada Jambeaux +1</feet>
+		</set>
+		<include>
+			<item>Mandau</item>
+			<item>Izhiikoh</item>
+			<item>Thief's Knife</item>
+			<item>Raider's Bmrng.</item>
+		</include>
+	</sets>
+
+	<variables>
+		<var name="Set">Old</var>
+		<var name="TH">TH</var>
+	</variables>
+
+	<inputcommands>
+		<cmd input="/tp">
+			<setvar name="Set" value="Old" />
+			<addtochat color="57">Set - Old Content</addtochat>
+		</cmd>
+		<cmd input="/accTP">
+			<setvar name="Set" value="Acc" />
+			<addtochat color="57">Set - High Accuracy</addtochat>
+		</cmd>
+		
+		<cmd input="/th">
+			<if advanced="$TH=Default">
+				<setvar name="TH" value="true" />
+				<addtochat color="57">TH On!</addtochat>
+			</if>
+			<else>
+				<setvar name="TH" value="false" />
+				<addtochat color="57">TH Off!</addtochat>
+			</else>
+		</cmd>
+	</inputcommands>
+
+	<idlegear>
+		<if p_status="engaged">
+			<equip set="TP-$Set-$TH" />
+			<if buffactive="342">
+				<equip><feet>Asn. Poulaines +2</feet></equip>
+			</if>
+			<if buffactive="343">
+				<equip><legs>Asn. Culottes +2</legs></equip>
+			</if>
+		</if>
+		<else><equip set="Stand" /></else>
+	</idlegear>
+
+	<jobability>
+		<if ad_name="Quickstep|Box Step"><equip set="Steps" /></if>
+        <if spell="Flee"><equip when="precast"><feet>Pillager's Poulaines</feet></equip></if>
+		<if ad_name="Assassin's Charge">
+			<equip><feet>Asn. Poulaines +2</feet></equip>
+		</if>
+		<if ad_name="Feint">
+			<equip><legs>Asn. Culottes +2</legs></equip>
+		</if>
+		<if ad_name="Perfect Dodge"><equip><hands>Asn. Armlets +2</hands></equip></if>
+	</jobability>
+
+	<weaponskill>
+		<if ad_name="Exenterator"><equip set="Exenterator-$Set" /></if>
+		<if ad_name="Evisceration"><equip set="Evisceration-$Set" /></if>
+	</weaponskill>
+</ashitacast>
